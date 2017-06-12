@@ -3,10 +3,9 @@
   constructor(options = {}) {
     this.obj = $.extend({
       name: "preview",
-      lang: "English",
       target: "body",
       width: 720, // image size 720 * 154
-      bgcolor: "000f23",
+      bgcolor: "#000f23",
       data: "",
       todownload: true,
       el: {
@@ -51,7 +50,6 @@
 
   add_logo (link) {
     var env = this.obj
-    console.log(link);
     if (env.el.logo) env.el.logo.remove()
     function getsize (img) {
       var _h = env.height - (env.logo.margin * 2)
@@ -87,9 +85,6 @@
       env.el.logo = img
     });
   }
-
-
-
 
   dload () {
     download(this.obj.el.canvas.toDataURL('png'), this.obj.name + ".png", "img/png")

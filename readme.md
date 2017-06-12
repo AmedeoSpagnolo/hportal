@@ -4,17 +4,19 @@
 
 # html
 
- `<hotelbanner data-logo="assets/img/logo_placeholder.png" data-colour="#000f23"></hotelbanner>
-  <!-- vendors -->
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="bower_components/fabric.js/dist/fabric.js"></script>
-  <script type="text/javascript" src="bower_components/downloadjs/download.js"></script>
+ `  <div style="display:none">
+     <img src="assets/img/logo_placeholder.png">
+     <img src="assets/img/info_English.png">
+   </div>
 
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/lib/HotelBanner.js"></script>
-  <script type="text/javascript" src="assets/js/main.js"></script>`
+   <hotelbanner data-image="assets/img/logo_placeholder.png"
+                data-bgcolor="#000f23"
+                data-lang="assets/img/info_English.png"
+                data-name="hotelbanner"
+                data-width="720"></hotelbanner>`
 
 # js
 
-  `var options = $("hotelbanner").dataset()
-   var myhotelbanner = new HotelBanner(options)`
+  ` var options = $("hotelbanner").data()
+    options.target = "hotelbanner"
+    var myhotelbanner = new HotelBanner(options).init()`
