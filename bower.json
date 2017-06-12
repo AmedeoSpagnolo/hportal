@@ -1,0 +1,22 @@
+{
+  "name": "hotelportal_lib",
+  "authors": [
+    "Amedeo Spagnolo <amedeo.spagnolo@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "fabric.js": "fabric#^1.7.11",
+    "downloadjs": "^1.4.7"
+  }
+}

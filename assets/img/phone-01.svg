@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 345 190.7" style="enable-background:new 0 0 345 190.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:#FFFFFF;}
+	.st3{mask:url(#SVGID_1_);}
+	.st4{fill:#ECECEC;}
+	.st5{fill:#DDDEDE;}
+	.st6{fill:#DFDEDE;}
+</style>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="345" height="537.4">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="0" y="0" width="345" height="537.4" id="SVGID_1_">
+	<g class="st0">
+		
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="107.1062" y1="621.6957" x2="204.454" y2="621.6957" gradientTransform="matrix(6.123234e-17 1 -1 6.123234e-17 785.1931 -40.1496)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#000000"/>
+		</linearGradient>
+		<polygon class="st1" points="-113.5,164.3 -113.5,67 440.5,67 440.5,164.3 		"/>
+		<rect x="-17.3" y="-13.9" class="st2" width="374.8" height="80.9"/>
+	</g>
+</mask>
+<g class="st3">
+	<path class="st4" d="M298.2,537.4H46.8C21,537.4,0,516.4,0,490.6V46.8C0,21,21,0,46.8,0h251.3C324,0,345,21,345,46.8v443.8
+		C345,516.4,324,537.4,298.2,537.4z"/>
+	<path class="st5" d="M211.8,20.7h-78.7c-2.1,0-3.8-1.7-3.8-3.8v-1.1c0-2.1,1.7-3.8,3.8-3.8h78.7c2.1,0,3.8,1.7,3.8,3.8V17
+		C215.6,19,213.9,20.7,211.8,20.7z"/>
+	<rect x="19" y="34" class="st6" width="307" height="200"/>
+</g>
+</svg>
